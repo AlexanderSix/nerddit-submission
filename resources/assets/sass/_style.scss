@@ -1,0 +1,121 @@
+.title {
+    font-size: 10em;
+    font-family: 'Raleway-thin', sans-serif;
+    color: #E5865C;
+    background-color: #EFEFEF;
+}
+
+.marginleft {
+    margin-left: 14px;
+}
+
+.panel-body.post {
+    padding: 0px;
+}
+
+.list-group-item.post {
+    overflow: auto;
+    background-color: #E5E4E3;
+    margin-bottom: 0px;
+    border: none;
+    border-bottom: 1px solid #BABABA;
+}
+
+.postselectbtn {
+    color: #000000;
+    margin-bottom: 0px;
+    border: none;
+    background-color: #E5E4E3;
+}
+
+.postselectbtn.title{
+    font-size: 2em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+.postselectbtn.subtitle{
+    font-size: 1em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+}
+
+.btn-default.btn {
+    font-weight: bold;
+    color: #fff;
+    background-color: #7F44AA;
+}
+
+.form {
+    font-size: 1em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    color: #303030;
+    background-color: #fcfcfc;
+}
+
+.login-bg {
+    background-color: $login-bg;
+}
+
+.navbar-default .navbar-brand {
+    color: #ffffff !important;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #ffffff !important;
+}
+
+a.navbar-brand {
+    font-size: 2em;
+}
+
+.contenttitle {
+    color: #000000;
+    font-size: 3em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+.contentBox {
+    font-size: 1em;
+    background-color: #E5E4E3;
+    border: 2px solid #BABABA;
+    padding: inherit;
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575px) {
+    .title {
+        font-size: 8em;
+    }
+    .postselectbtn {
+        font-size: 1em;
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+        color: #000000;
+        border: none;
+        background-color: #E5E4E3;
+    }
+    .contenttitle {
+        color: #000000;
+        font-size: 2em;
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+    }
+    .contentBox {
+        font-size: 1em;
+        background-color: #E5E4E3;
+        border: 2px solid #BABABA;
+        padding: inherit;
+    }
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767px) { }
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991px) { }
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199px) { }

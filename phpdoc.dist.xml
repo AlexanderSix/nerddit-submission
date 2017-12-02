@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phpdoc>
+    <title>Nerddit</title>
+    <parser>
+        <target>output</target>
+        <encoding>utf8</encoding>
+        <markers>
+            <item>TODO</item>
+        </markers>
+        <extensions>
+            <extension>php</extension>
+            <extension>php3</extension>
+            <extension>phtml</extension>
+        </extensions>
+        <visibility></visibility>
+    </parser>
+    <transformer>
+        <target>output</target>
+    </transformer>
+    <logging>
+        <level>warn</level>
+        <paths>
+            <default>{APP_ROOT}/data/log/{DATE}.log</default>
+            <errors>{APP_ROOT}/data/log/{DATE}.errors.log</errors>
+        </paths>
+    </logging>
+    <transformations>
+    </transformations>
+    <files>
+        <ignore>node_modules/*</ignore>
+        <ignore>vendor/*</ignore>
+        <ignore>tests/*</ignore>
+        <ignore>public/*</ignore>
+        <!-- <directory>app</directory> -->
+        <directory>bootstrap</directory>
+        <directory>config</directory>
+        <!-- <directory>database</directory> -->
+        <directory>resources</directory>
+        <directory>routes</directory>
+
+    </files>
+</phpdoc>
